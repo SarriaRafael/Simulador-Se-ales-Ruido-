@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtrado por Media Movil</title>
+    <link href="/index.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <div id="main" >    
+   
+    <div  class="señales"  >  
+        señales con ruido        
+        <div id="botones" >
+            <button  id="gencos"  >Generar onda Coseno</button>
+            <button  id="genrect"  >Generar onda Rectangular</button>
+            <button  id="gentriang"  >Generar onda Trianglar</button>
+        </div>  
+    </div>    
+        <canvas   id= "ruido" width="9192" height="1024" ></canvas>  
+        <div class="filtro"  >
+            <button  id="filtrar"  >filtrar</button>
+             selecione la calidad del filtro 
+                <input type="range" id="ranfil"  >
+            señal filtrada
+            
+        </div>      
+        <canvas   id= "bajo" width="9192" height="1024" ></canvas>
+    <div class="filtro" > 
+        Ruido rechazado 
+        <input type="range" id="ranalt"  >
+        Selecione la amplitud del Ruido rechazado 
+    </div> 
+        <canvas   id= "alt" width="9192" height="1024" ></canvas>    
+</div>
+
+<script  src="./js/index.js"  type="module"  ></script>
+</body>
+</html>
