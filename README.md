@@ -5,7 +5,7 @@
 # Individual SIMULADOR SEÑALES RUIDO
 
 <p align="left">
-  <img height="200" src="señal.png" />
+  <img height="800" src="señal.png" />
 </p>
 
 # Proyecto SIMULADOR SEÑALES RUIDO
